@@ -2,7 +2,7 @@
     <div class="display-6 text-light text-center rounded-2 border">
         REGISTRO DE ESTUDANTES
     </div>
-    <form class="" [formGroup]="formGroup">
+    <form>
         <div class="form-group">
             <div class="row">
                 <div class="col-md-8 mt-2">
@@ -23,7 +23,7 @@
                     <div class="input-group endereço">
                         <span class="input-group-text"><strong>#</strong></span>
                         <div class="form-floating">
-                            <input type="number" class="form-control" formControlName="endereço" id="endereço" placeholder="Endereço" required>
+                            <input type="text" class="form-control" formControlName="endereço" id="endereço" placeholder="Endereço" required>
                             <label for="endereço">Endereço:</label>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                             </svg>
                         </span>
                         <div class="form-floating">
-                            <input type="tipo" class="form-control" formControlName="tipo" id="tipo" placeholder="Tipo" required>
+                            <input type="text" class="form-control" formControlName="tipo" id="tipo" placeholder="Tipo" required>
                             <label for="tipo">Tipo de Empresa</label>
                         </div>
                     </div>
