@@ -1,0 +1,25 @@
+{
+  "empresas": [
+    {
+    "name":"BigHit" ,
+    "endereço": "Seoul, num 81",
+    "numif": "123456",
+    "tipo": "Emtretenimento",
+    "registro": "654321"
+    },
+    {
+      "name":"Google" ,
+      "endereço": "Canadá, num 705",
+      "numif": "654841",
+      "tipo": "Emtretenimento",
+      "registro": "132416"
+      },
+     {
+      "name":"Youtube" ,
+      "endereço": "Japão, num 705",
+      "numif": "654845",
+      "tipo": "Emtretenimento",
+      "registro": "124578"
+     }   
+  ]
+}

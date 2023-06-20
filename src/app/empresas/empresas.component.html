@@ -1,8 +1,8 @@
 <div class="form">
     <div class="display-6 text-light text-center rounded-2 border">
-        REGISTRO DE ESTUDANTES
+        REGISTRO DE EMPRESAS
     </div>
-    <form>
+    <form class="">
         <div class="form-group">
             <div class="row">
                 <div class="col-md-8 mt-2">
@@ -80,3 +80,33 @@
         </div>
     </form>
 </div>
+
+<div class="tabela mt-5 text-center">
+    <div class="display-6 text-light rounded-2 border">
+        REGISTROS
+    </div>
+    <table class="table bg-light table-striped mt-2 rounded-2">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome da Empresa</th>
+                <th scope="col">Endereço</th>
+                <th scope="col">Número de Identificação Fiscal</th>
+                <th scope="col">Tipo de Empresa</th>
+                <th scope="col">Registro Comercial</th>
+            </tr>
+        </thead>
+
+        <tbody>
+          <tr *ngFor="let empresa of empresas">
+            <th scope="row">{{empresa.name}}</th>
+            <td>{{empresa.endereco}}</td>
+            <td>{{empresa.numif}}</td>
+            <td>{{empresa.tipo}}</td>
+            <td>{{empresa.registro}}</td>
+
+          </tr>
+        </tbody>
+      </table>
+</div>
+
